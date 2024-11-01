@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+form {
+    margin: 2rem 0;
+}
+
+form div {
+    margin: 1rem 0;
+}
+
+input,
+button {
+    width: 100%;
+}
+
+input {
+    padding: 0.2rem;
+}
+
+button,
+select {
+    padding: 0.5rem;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+thead tr {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 0.2rem;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}

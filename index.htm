@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2350 Assignment9 - JS Collections</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer="defer"></script>
+</head>
+
+<body>
+    <h1>Favorite Programming Languages</h1>
+    <form>
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="type">Type:</label>
+            <select name="type" id="type">
+                <option value="Compiled">Compiled</option>
+                <option value="Interpreted">Interpreted</option>
+            </select>
+        </div>
+        <div>
+            <label for="ide">Preferred IDE/Editor</label><br>
+            <input type="text" id="ide" value="Visual Studio Code">
+        </div>
+        <button id="add">Add Entry</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Type</td>
+                <td>Preferred IDE/Editor</td>
+            </tr>
+        </thead>
+        <tbody id="results">
+        </tbody>
+    </table>
+</body>
+
+</html>
